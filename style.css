@@ -1,0 +1,199 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #555; 
+    margin-right:40px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+
+
+
+
+.text-decoration a{
+    text-decoration:none;
+}
+.banner{
+    height:100vh;
+}
+.pink-bg{
+    background:#F2707C;
+}
+.black-bg{
+    background-color: black;
+}
+.black-text{
+    color: black;
+}
+.black-text focus{
+    color: black;
+}
+.Roboto-family{
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner-text{
+    font-size:48px;
+}
+@media only screen and (max-width: 600px) {
+    .banner-text{
+        font-size:32px;
+    }
+}
+.banner-subtext{
+    font-size:20px;
+}
+@media only screen and (max-width: 600px) {
+    .banner-subtext{
+        font-size:17px;
+    }
+}
+
+.pill-shape{
+    border-radius: 25px;
+}
+.banner-button{
+    padding: 8px 40px;
+}
+.section-2{
+    background-color: #8E7CB5;
+}
+.section-2-text{
+    font-size:40px;
+}
+@media only screen and (max-width: 600px) {
+    .section-2-text{
+        font-size:24px;
+    }
+}
+
+.section-2-subtext{
+    font-size:20px;
+}
+
+.section-2-button{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.section-3-bg{
+    background-color: #BFE1FF;
+}
+.section-3-text{
+    font-size:40px;
+}
+@media only screen and (max-width: 600px) {
+    .section-3-text{
+        font-size:18px;
+    }
+}
+.section-3-subtext{
+    font-size:24px;
+}
+@media only screen and (max-width: 600px) {
+    .section-3-subtext{
+        font-size:16px;
+    }
+}
+.section-3-mobileheading{
+    font-size:24px;
+    
+}
+.section-4-bg{
+    background-color: #FFE4E7;
+}
+
+.section-5-bg{
+    background-color: #F7F3FF;
+}
+.section-6-heading{
+    font-size:32px;
+}
+@media only screen and (max-width: 600px) {
+    .section-6-heading{
+        font-size:24px;
+    }
+}
+
+
+
+
+
+.footer{
+    background-color: #12193B;
+}
+
+.footer-heading1{
+    font-size:32px;
+}
+.footer-heading2{
+    font-size:20px;
+}
+.footer-button{
+    background-color: #7C7EB5;
+    padding: 8px 40px;
+}
+.hr{
+    border-top: 1px solid  rgb(255, 255, 255,0.4);
+}
+
+.mobile-section{
+    background-color: #7C7EB5;
+}
+
+.mobile-section-heading{
+    font-size: 24px;
+}
+.mobile-section-text{
+    font-size: 18px;
+}
